@@ -1,0 +1,42 @@
+/* Устанавливаем фон для всей страницы */
+body {
+    background-image: url('fon.jpeg'); /* Замените 'background.jpg' на путь к вашему изображению */
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Стили для контейнера */
+.container {
+    background-color: rgba(0, 0, 0, 0.5); /* Прозрачный черный фон для контента */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Стили для кнопки */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+/* Цвет кнопки при наведении */
+.button:hover {
+    background-color: #45a049;
+}
+
+/* Цвет кнопки при нажатии */
+.button:active {
+    background-color: #3e8e41;
+}
